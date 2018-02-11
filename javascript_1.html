@@ -1,0 +1,22 @@
+<html>
+	<body>
+		<p>Hello</p>
+		<p id="demo"></p>
+		<script src="myScript.js">
+			var x,y;
+			x=3;
+			y=1;
+			var x={
+				firstName:"Sagar", lastName:"Desitti", age:15
+			};
+			document.getElementById('demo').innerHTML=x.lastName + x.firstName + x.age;
+			
+			//document.getElementById('demo').innerHTML=myfunc1();
+		</script>
+		<button onclick="myfunc(x,y)">Click Here!</button>	
+		<br/>
+		<img id="demo1" src="1.jpg" width="100px" height="100px" />
+		<button onclick="document.getElementById('demo1').src='2.jpeg'">Other pic</button>
+		<button onclick="document.getElementById('demo1').src='1.jpg'">Same pic</button>
+	</body>
+</html>
